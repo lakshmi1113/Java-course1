@@ -20,9 +20,7 @@ public class MinMax {
         }while(choice == 'y' || choice == 'Y');
         System.out.println("Largest number is "+max);
         System.out.println("Smallest number is "+min);
-
+        sc.close();
         }
-        
-
-    }
+            }
 

@@ -17,6 +17,6 @@ public class Loops {
             sum += i;
         }
         System.out.println("The sum is " + sum);
-        // sc.close();
+        sc.close();
     }    
 }
