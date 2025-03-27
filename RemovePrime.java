@@ -24,7 +24,8 @@ public class RemovePrime{
         System.out.println("Enter size of arraylist:");
         int n = sc.nextInt();
         ArrayList<Integer> arr = new ArrayList();
-        for(int i = 0; i<n-1; i++){
+        for(int i = 0; i<n; i++){
+            System.out.println("Enter the array elements:");
             arr.add(sc.nextInt());
         }
         solution(arr);
